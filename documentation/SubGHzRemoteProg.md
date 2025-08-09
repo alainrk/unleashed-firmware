@@ -1,6 +1,6 @@
-# How to use Flipper as a new SubGHz remote (not clone of original remote)
+# How to use flipper as a new SubGHz remote (not clone of original remote)
 
-### If your system is not added here that doesn't mean flipper don't support it! Look into add manually menu, and search for your manufacturers inscturctions!
+### If your system is not added here that doesn't mean flipper don't support it! Look into add manually menu, and search for your manufacturer's instructions!
 ### Also many supported systems can be used only from `Read` mode, `Add Manually` is used only to make new remotes that can be binded with receiver
 
 ## FAAC SLH (NEW!)
@@ -26,11 +26,11 @@ How to get Seed value from your original remote or bind new remote using existin
 FIX -> A0 RR RR R6
 COUNTER -> 00 00 02
 SEED -> Your seed from the remote button you got earlier
-8. Flipper will act as new remote, press Send button couple times near the receiver to register new remote
+8. flipper will act as new remote, press Send button couple times near the receiver to register new remote
 9. Done!
 
 ## Dea Mio
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Dea Mio 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Dea Mio 433MHz
 2. Open your new remote file
 3. Right arrow button on the flipper simulates press of hidden button in original remote
 4. Send button simulates one of basic buttons of the remote, can be programmed into the receiver
@@ -39,7 +39,7 @@ SEED -> Your seed from the remote button you got earlier
 ## AN-Motors AT4
 
 **This instruction for older boards, if your has no** `Learn` **button but has buttons** `F`, `CL`, `+`, `-` **read instruction from Alutech AT4N**
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> AN-Motors AT4 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> AN-Motors AT4 433MHz
 2. Open your new remote file
 3. Open your receiver box, find button `Learn` click it one time, led will turn on.
 4. Press `Send` on your flipper one time, led on receiver board will turn off.
@@ -50,7 +50,7 @@ Watch this video to learn more (video in Russian language): https://www.youtube.
 
 ## Alutech AT4N (AN-Motors)
 
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Alutech AT4N 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Alutech AT4N 433MHz
 2. Open your new remote file
 3. Open your receiver box, find button `F` press it for ~3sec, display will show `Pr`.
 4. Click `F` button couple times until you see `Lr` on screen
@@ -63,7 +63,7 @@ Watch this video to learn more and see how different boards can be programmed (v
 
 ## Aprimatic TR
 
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Aprimatic 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Aprimatic 433MHz
 2. Open your new remote file
 3. Push all 4 buttons at same time on your existing remote thats already works with receiver
 4. Receiver makes a continuous beep
@@ -74,7 +74,7 @@ Watch this video to learn more and see how different boards can be programmed (v
 ## Doorhan
 
 With access to the receiver box:
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433Mhz or 315Mhz depends on your receiver (find out by reading your existing remote or follow guide below)
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433MHz or 315MHz depends on your receiver (find out by reading your existing remote or follow guide below)
 - Finding frequency
 
 There are 2 frequencies for DoorHan: 315.00 / 433.92. To determine them it is enough to create a DoorHan remote control with one of the frequencies via Sub-GHz -> Add manually, press the button and watch the receiver's reaction. If you have guessed the frequency, the light bulb will turn on when we press the button on the FZ and turn off when we release it.
@@ -85,12 +85,12 @@ Once you have access to the receiver (removed the protective cover), look at the
 - If there are 4 buttons (Radio, Reverse, Auto, ...) then press and hold Radio until the LED lights up, then press the FZ button 2 times and the LED goes out;
 - If there are 4 buttons (R, P, +, -) and display, press R, then press 2 times the button on FZ and wait +/- 10 seconds;
 - If there are 4 buttons (+, -, F, TR) and display, press TR, then press 2 times the button on FZ and wait +/- 10 seconds;
-- In other cases there is a “universal” instruction: Press and hold the button “P” +/- 2 seconds until the LED flashes, then press 2 times the button on the FZ and the LED goes out.
+- In other cases there is a "universal" instruction: Press and hold the button "P" +/- 2 seconds until the LED flashes, then press 2 times the button on the FZ and the LED goes out.
 
 In all cases it is recommended to wait until the receiver returns to normal mode.
 
 With existing remote:
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433Mhz or 315Mhz depends on your receiver (find out by reading your existing remote)
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433MHz or 315MHz depends on your receiver (find out by reading your existing remote)
 2. Open your new remote file
 3. For next steps be close to the receiver board, around 1-2 meters
 4. Press second button (lowest one) on the old remote, do not release second button and press 1st (upper) button, hold buttons for 1 sec and release them
@@ -101,7 +101,7 @@ With existing remote:
 9. Done!
 
 With copy of existing remote on flipper:
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433Mhz or 315Mhz depends on your receiver (find out by reading your existing remote)
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> KL: Doorhan 433MHz or 315MHz depends on your receiver (find out by reading your existing remote)
 2. Open your existing remote (original) file
 3. For next steps be close to the receiver board, around 1-2 meters
 4. Press left button (0x8) on the flipper, hold for 1 sec and release the button and press right (0xA) button, hold button for 1 sec and release
@@ -115,33 +115,33 @@ Watch this videos to learn more (videos in Russian language): https://www.youtub
 
 ## Somfy Telis
 
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Somfy Telis 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Somfy Telis 433MHz
 2. Open your new remote file
-3. Long press (hold) the ‘Prog’ button on a remote that is already registered to the device, until the blinds move shortly up and down.
-4. Press and hold the ‘Prog’ button on the flipper (Left Arrow), until the blinds move shortly up and down again.
+3. Long press (hold) the 'Prog' button on a remote that is already registered to the device, until the blinds move shortly up and down.
+4. Press and hold the 'Prog' button on the flipper (Left Arrow), until the blinds move shortly up and down again.
 5. Done?
 
 ## BFT Mitto 
 
 How to create new remote and bind it to receiver (will not conflict with original remotes):
 
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> BFT Mitto 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> BFT Mitto 433MHz
 2. Open your new remote file
 3. You need to be in minimum 3 meters to receiver
 4. Original Remote: Press hidden button on back of remote with a pin or paper clip OR press Button 1 & 2 together until remote LED lights.
 5. Original Remote: Momentarily press button that opens device
-6. Long press (Right Arrow) - (0xF button - Btn:F) on Flipper for like 3-5 sec
+6. Long press (Right Arrow) - (0xF button - Btn:F) on flipper for like 3-5 sec
 7. Press the button you want to bind to open the device on the flipper
 8. Press (Right Arrow) - (0xF button - Btn:F) again
 9. Done?
 
 OR
 
-1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> BFT Mitto 433Mhz
+1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> BFT Mitto 433MHz
 2. Open your new remote file
 3. Open your receiver board box
 4. **Watch this video**: https://www.youtube.com/watch?v=5QXMBKI_-Ls
-5. Long press (Right Arrow) - (0xF button - Btn:F) on Flipper for like 3-5 sec -> Will act like holding Button 1 & 2 on original remote as shown on video
+5. Long press (Right Arrow) - (0xF button - Btn:F) on flipper for like 3-5 sec -> Will act like holding Button 1 & 2 on original remote as shown on video
 6. Done?
 
 --
@@ -183,7 +183,7 @@ With original remote (or copy of the original remote):
 3. You need to be in minimum 3 meters to receiver
 4. Original Remote: Press and hold button that is bound with that receiver (the one you use with it), and hold it for about 10 seconds.
 5. You will have about 20 seconds to add new remote
-6. Long press Send on Flipper in new remote for like 3-4 sec and release - this will add new remote to the receiver
+6. Long press Send on flipper in new remote for like 3-4 sec and release - this will add new remote to the receiver
 7. Press and hold Send again after waiting 20 seconds - this will trigger the receiver
 8. Done, when using CAME Atomo from flipper please hold Send button for at least 2 seconds to allow code to be fully transmit, flipper transmits only while button is held
 
@@ -194,7 +194,7 @@ With access to receiver box:
 1. Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> CAME Atomo 433MHz or 868MHz
 2. Open your new remote file
 3. Open the receiver box and find programming button related to the used channel, for example RE432M/RE862M receiver has two independent channels which can have different remotes / buttons on them, when you found connected channel press "1" or "2" button on the receiver board to enter programming mode
-4. Long press Send on Flipper new remote for like 3-4 sec and release - this will add new remote to the receiver
+4. Long press Send on flipper new remote for like 3-4 sec and release - this will add new remote to the receiver
 5. Click CLEAR button one time on the receiver board to exit programming mode, or wait about 20 seconds it will exit from programming mode automatically
 6. Done, when using CAME Atomo from flipper please hold Send button for at least 2 seconds to allow code to be fully transmit, flipper transmits only while button is held
 
@@ -203,7 +203,7 @@ Watch this video to learn more (video in Russian language): https://www.youtube.
 
 ## Nice Flor S
 
-- Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Nice FloR-S 433Mhz
+- Create new remote with randomly generated serial: Go to SubGHz -> Add Manually -> Nice FloR-S 433MHz
 - Open your new remote file
 
 ### Coding using an existing remote
